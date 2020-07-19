@@ -6,10 +6,10 @@
         <p class="signature">Hao Yuan</p>
       </div>
       <div class="navbar-inner">
-        <a href="/home" class="nav-item">HOME</a>
-        <a href="/about" class="nav-item">ABOUT</a>
-        <a href="/resume" class="nav-item">RESUME</a>
-        <a href="/memes" class="nav-item">MEMES</a>
+        <router-link to="/home" class="nav-item">HOME</router-link>
+        <router-link to="/about" class="nav-item">ABOUT</router-link>
+        <router-link to="/resume" class="nav-item">RESUME</router-link>
+        <router-link to="/memes" class="nav-item">MEMES</router-link>
       </div>
     </div>
     <router-view></router-view>
