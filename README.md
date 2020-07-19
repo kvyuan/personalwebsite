@@ -1,4 +1,10 @@
 # personalwebsite
+repo for my website
+
+# Future Release
+v0.2 content layout adjustment
+v0.3 TBD
+v1.0 mobile device compatible
 
 ## Project setup
 ```
