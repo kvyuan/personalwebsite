@@ -33,7 +33,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   background: #F9F4ED;
-  background-color: #eae6df;
+  background-color: #464543;
   position:absolute;
   display:block;
   min-height:100%;
@@ -56,13 +56,12 @@ export default {
   width: 100%;
   height: 60px;
   background-color: #0c0b0b;
-  top: 0;
   position: fixed;
   display: flex;
   font-family: proxima-nova;
   font-weight: 600;
   font-style: normal;
-  font-size: 15px;
+  font-size: 1vw;
   letter-spacing: .16em;
   vertical-align: middle;
   align-items: center;
@@ -72,10 +71,10 @@ export default {
 .signature{
   font-family: "Brush Script MT";
   font-family: "Segoe Script";
-  font-size: 36px;
-  color: #FFF;
+  font-size: 3vw;
+  color: #d6d6d6;
   position: relative;
-  left: 80px;
+  left: 15%;
 }
 
 .navbar-inner{
@@ -88,7 +87,7 @@ export default {
 }
 
 .nav-item{
-  color: #FFF;
+  color: #d6d6d6;
   margin: 20px;
   padding: .618em 0;
   vertical-align: middle;

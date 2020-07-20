@@ -2,8 +2,8 @@
   <div>
     <GeneralHeader content="These define who I am"/>
     <div class="fun-facts">
-      <div class="city-pic">
-        <img src="../assets/qd.jpg"/>
+      <div class="city-pic-wrapper">
+        <img class="city-pic" src="../assets/qd.jpg"/>
       </div>
       <div class="fun-facts-inner">
         <p id="sub-header">Fun Facts</p>
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="if-rich">
-      <p id="sub-header">If I am rich one day</p>
+      <p id="sub-header">If I am wealthy some day</p>
       <div class="if-rich-inner">
         <p id="if-rich-content">
           Yeah I know, it's not likely to happen.
@@ -68,27 +68,38 @@ export default {
 <style>
 .fun-facts{
   width: 100%;
-  height: 500px;
+  height: 55vh;
   positition: relative;
 }
 
-.city-pic{
-  position: absolute;
-  top: 280px;
-  left: 120px;
-  disply: block
+.city-pic-wrapper{
+  position: relative;
+  padding-top: 100px;
+  display:inline-block;
+  float:left;
+  margin-left: 11%;
+  width: 35%;
+  height: auto;
+
+}
+
+img.city-pic{
+  width:100%;
+  height: auto;
+  float:left
 }
 
 .fun-facts-inner{
   position: relative;
-  top: 120px;
-  left: 700px;
   width:35%;
-  height: 300px;
+  float:right;
+  margin-right:11%;
+  padding-top:14vh;
 }
 
 .favorites{
   position: relative;
+  padding-top: 5%;
 }
 
 .unpopular-opinions-inner{
@@ -116,17 +127,16 @@ export default {
 #sub-header{
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 25px;
-  color: #254c5f;
+  font-size: 2.5vw;
   letter-spacing: .16em;
 }
 
 #fun-facts-content{
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.5vw;
   color: black;
-  letter-spacing: .05em;
+  letter-spacing: .03em;
   display: flex;
   justify-content: space-between;
   text-align: justify;
@@ -136,7 +146,7 @@ export default {
 #unpopular-opinions-content{
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.5vw;
   color: black;
   letter-spacing: .05em;
   display: flex;
@@ -149,15 +159,17 @@ export default {
 #if-rich-content{
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.5vw;
   color: black;
   letter-spacing: .05em;
   text-align: center;
+  align-items: center;
+
 
 }
 
 ul{
-  max-width:90%; 
+  max-width:90%;
   margin:auto;
   text-align:left;
 }
