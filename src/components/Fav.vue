@@ -29,7 +29,7 @@ export default {
 	height: auto;
 }
 .hvrbox img {
-	max-width: 100%;
+	max-width: 30vw;
 }
 .hvrbox .hvrbox-layer_bottom {
 	display: block;
@@ -58,7 +58,7 @@ export default {
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.5vw;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -69,7 +69,7 @@ export default {
 	transform: translate(-50%, -50%);
 }
 .hvrbox .hvrbox-text_mobile {
-	font-size: 15px;
+	font-size: 10px;
 	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
 	border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;

@@ -43,7 +43,7 @@
         <p id="if-rich-content">
           Yeah I know, it's not likely to happen.
           <br>
-          But if I am, I will start a fund to build an orphanage, a school,
+          But if I am, I will build an orphanage, a school,
           a homeless shelter, a nursing home, and an animal shelter.
           <br>
           This is my life goal. Might be trivial to you, but it means a lot to me.
@@ -74,7 +74,7 @@ export default {
 
 .city-pic-wrapper{
   position: relative;
-  padding-top: 100px;
+  padding-top: 16vh;
   display:inline-block;
   float:left;
   margin-left: 11%;

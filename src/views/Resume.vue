@@ -71,9 +71,9 @@
           <h2>Skills</h2>
         </div>
         <div class="skills-inner">
-        <Skills skills="Progamming: Java, Python, Javascript, Matlab, React,
-        Vue, Django, Julia, AMPL, MATLAB"/>
-        <Skills skills="Analytics: Scikitlearn, SQLite, Hive, Spark, MS
+        <Skills skills="Progamming: Python, Java, Javascript, Matlab, React,
+        Vue, Django, Julia, MATLAB"/>
+        <Skills skills="Analytics: AWS, Scikitlearn, SQLite, Hive, Spark, MS
         Power BI, Tableau"/>
         <Skills skills="Communication and Management: Client Speech, Technical
         Writing, Agile, DMAIC"/>
@@ -105,67 +105,74 @@ export default {
   width: 100%;
   display: grid;
   location:relative;
-  height: 2000px;
 }
 
 .education-outer{
   display: grid;
-  overflow: hidden
+  overflow: hidden;
+  grid-template-columns: minmax(38vw, 23%) 1fr;
+  height: auto;
+  padding-top: 5vw;
 }
 
 .education-col{
-  font-size: 30px;
+  display: inline-block;
+  font-size: 2vw;
   font-family: proxima-nova;
   color: black;
   text-align: left;
-  position: absolute;
-  left: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  hight: auto;
 }
 
 .education-inner{
-  position: absolute;
-  left: 35%
+  padding-top: 5.8vh;
+  height:auto;
 }
 
 .experience-outer{
   display: grid;
+  grid-template-columns: minmax(38vw, 23%) 1fr;
+  text-align: center;
+  height: auto;
 }
 
 .experience-col{
-  position: absolute;
-  left: 12%;
-  top: 22.5%;
-  font-size: 30px;
+  display: inline-block;
+  font-size: 2vw;
   font-family: proxima-nova;
   color: black;
+  position: relative;
   text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .experience-inner{
-  position: absolute;
-  left: 35%;
-  top: 24.5%
+  padding-top: 7vh;
 }
 
 .skills-outer{
   display: grid;
+  grid-template-columns: minmax(38vw, 23%) 1fr;
+  text-align: center;
+  height:auto;
 }
 
 .skills-col{
-  position: absolute;
-  left: 12%;
-  top: 81%;
-  font-size: 30px;
+  font-size: 2vw;
   font-family: proxima-nova;
   color: black;
-  text-align: left;
+  text-align: center;
+  display: inline-block;
+  padding-right: 8vw;
 }
 
 .skills-inner{
-  height:200px;
-  position: absolute;
-  top:83.5%;
-  left: 35%
+    padding-top: 5vh;
+    text-align: left;
 }
 
 

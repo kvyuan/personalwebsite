@@ -16,24 +16,17 @@ export default {
 .general-header{
   width: 100%;
   background-color: #0c0b0b;
-  display: block;
   location:relative;
-  height: 100px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-
+  display:inline-block;
+  padding-top: 15vh;
 }
 
 #content{
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 60px;
-  color: #FFF;
-  letter-spacing: .16em;
-  display: block;
-  justify-content: center;
+  font-size: 3vw;
+  color: #d6d6d6;
+  letter-spacing: .13em;
   align-items: center;
-  text-align: center
 }
 </style>

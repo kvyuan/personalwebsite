@@ -32,16 +32,16 @@ export default {
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  background: #F9F4ED;
-  background-color: #464543;
+  background-color: #92856c;
   position:absolute;
-  display:block;
-  min-height:100%;
-  height:auto;
+  min-height: 100vh;
   width:100%;
   top:0px;
   left:0px;
   z-index:-1;
+  overflow-z: hidden;
+  margin: 0;
+  height:auto;
 }
 
 #homeview {
@@ -54,14 +54,14 @@ export default {
 
 .navbar{
   width: 100%;
-  height: 60px;
+  height: 15vh;
   background-color: #0c0b0b;
   position: fixed;
   display: flex;
   font-family: proxima-nova;
   font-weight: 600;
   font-style: normal;
-  font-size: 1vw;
+  font-size: 1.25vw;
   letter-spacing: .16em;
   vertical-align: middle;
   align-items: center;
@@ -80,10 +80,11 @@ export default {
 .navbar-inner{
   margin: 0 auto;
   display: flex;
-  font-size:15
+  font-size:15;
   hover ~.nav-item{
     background-color: #cc1b0d;
-  }
+  };
+  align-items: center
 }
 
 .nav-item{

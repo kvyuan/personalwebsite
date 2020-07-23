@@ -5,14 +5,14 @@
     <h1>Welcome</h1>
     <p id="greetings-content">
       Welcome to my $1 budget website written with Vue.js framework!
-      <br>
+      <br/>
       It's more of a personal website than a professional one,
-      <br>
+      <br/>
       so contents are not that serious except in my resume section.
-      <br>
+      <br/>
       The chosen background color is meant to put less strain on your eyes.
-      <br>
-      And I even spot dead pixels on my new screen, yikes!
+      <br/>
+      And I even spot dead pixels on my new monitor, yikes!
     </p>
     <h1> Get in touch</h1>
     <div class="social-media-row">

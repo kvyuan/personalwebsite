@@ -20,13 +20,13 @@ export default {
   location: absolute;
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1.1vw;
   letter-spacing: .1em;
   color: black;
   margin-top: 0px;
   text-align: left;
   top: 10%;
-  padding-bottom: 30px;
+  padding-bottom: 5vh;
 }
 #position, #companyLocationYears{
   line-height: 3px
