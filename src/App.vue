@@ -42,6 +42,7 @@ export default {
   overflow-z: hidden;
   margin: 0;
   height:auto;
+  padding-bottom: 5vh;
 }
 
 #homeview {

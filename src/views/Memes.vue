@@ -2,11 +2,9 @@
   <div class="container-outer">
     <GeneralHeader content="My 2020 meme collection"/>
     <div class="container">
-      <img src="../assets/memes/thumbnails/1.png" width="100" height="100">
-      <img src="../assets/memes/thumbnails/2.png" width="100" height="100">
-      <img src="../assets/memes/thumbnails/3.png" width="100" height="100">
-      <img src="../assets/memes/thumbnails/4.png" width="100" height="100">
-      <img src="../assets/memes/thumbnails/5.png" width="100" height="100">
+      <div v-for="n in 8" :key="n">
+        <img :src="require(`../assets/memes/${n}.png`)" width="200" height="200">
+      </div>
     </div>
   </div>
 </template>
@@ -29,7 +27,7 @@ export default {
   }
   .container{
     display: grid;
-    grid-gap: 5vh;
+    grid-gap: 25vh;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-auto-rows: 100px;
     grid-auto-flow: dense;
@@ -40,7 +38,7 @@ export default {
 
   img{
     max-width: 50%;
-    height: auto;
+    height: 50%;
   }
   }
 </style>
