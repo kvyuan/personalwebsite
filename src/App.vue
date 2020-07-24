@@ -34,7 +34,7 @@ export default {
   text-align: center;
   background-color: #92856c;
   position:absolute;
-  min-height: 100vh;
+  min-height: 100%;
   width:100%;
   top:0px;
   left:0px;
@@ -42,7 +42,8 @@ export default {
   overflow-z: hidden;
   margin: 0;
   height:auto;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
+  background-clip: padding-box;
 }
 
 #homeview {
