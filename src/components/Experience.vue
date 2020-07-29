@@ -34,7 +34,7 @@ h4{
   margin-bottom:1vh;
 }
 
-.description{
-  font-size: 1vw
+#description{
+  font-size: 1.2vw
 }
 </style>
