@@ -68,20 +68,19 @@
         data using validation report scripts."/>
         </div>
       </div>
+      <div class="filler"/>
       <div class="section-outer">
         <div class="section-col">
           <h2>Skills</h2>
         </div>
         <div class="skills-inner">
-        <div class="filler"/>
-        <Skills skills="Progamming: Python, Java, Javascript, Matlab, React,
-        Vue, Django, Julia, MATLAB"/>
-        <Skills skills="Analytics: AWS, Scikitlearn, SQLite, Hive, Spark, MS
-        Power BI, Tableau"/>
-        <Skills skills="Communication and Management: Client Speech, Technical
-        Writing, Agile, DMAIC"/>
+          <Skills skills="Progamming: Python, Java, Javascript, Matlab, React,
+          Vue, Django, Julia, MATLAB"/>
+          <Skills skills="Analytics: AWS, Scikitlearn, SQLite, Hive, Spark, MS
+          Power BI, Tableau"/>
+          <Skills skills="Communication and Management: Client Speech, Technical
+          Writing, Agile, DMAIC"/>
         </div>
-
       </div>
     </div>
   </div>
@@ -131,4 +130,6 @@ export default {
 h2{
   font-size: 1.8vw;
 }
+
+.filler{margin-top:5vh;}
 </style>
