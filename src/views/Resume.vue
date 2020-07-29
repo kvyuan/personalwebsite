@@ -2,19 +2,21 @@
   <div>
     <GeneralHeader content="It ain't much, but it's honest work"/>
     <div class="resume-inner">
-      <div class="education-outer">
-        <div class="education-col">
+      <div class="section-outer">
+        <div class="section-col">
           <h2>Education</h2>
         </div>
         <div class="education-inner">
-          <Education degreeGpa = "M.Eng Mechanical and Industrial Engieering, GPA: 3.93"
-          schoolLocationYears = "University of Toronto, Toronto, CA, Expected May 2021"/>
-          <Education degreeGpa = "B.S Industrial Engineering and Computer Science, GPA: 3.50"
-          schoolLocationYears = "University of Wisconsin-Madison, Madison, WI, Received May 2019"/>
+          <Education degree= "M.Eng Mechanical and Industrial Engieering"
+          schoolLocationYears = "University of Toronto, Toronto, ON, Expected May 2021"
+          GPA = "3.93"/>
+          <Education degree = "B.S Industrial Engineering and Computer Science"
+          schoolLocationYears = "University of Wisconsin-Madison, Madison, WI, Received May 2019"
+          GPA = "3.50"/>
         </div>
       </div>
-      <div class="experience-outer">
-        <div class="experience-col">
+      <div class="section-outer">
+        <div class="section-col">
           <h2>Experience</h2>
         </div>
         <div class= "experience-inner">
@@ -66,11 +68,12 @@
         data using validation report scripts."/>
         </div>
       </div>
-      <div class="skills-outer">
-        <div class="skills-col">
+      <div class="section-outer">
+        <div class="section-col">
           <h2>Skills</h2>
         </div>
         <div class="skills-inner">
+        <div class="filler"/>
         <Skills skills="Progamming: Python, Java, Javascript, Matlab, React,
         Vue, Django, Julia, MATLAB"/>
         <Skills skills="Analytics: AWS, Scikitlearn, SQLite, Hive, Spark, MS
@@ -104,76 +107,28 @@ export default {
 .resume-inner{
   width: 100%;
   display: grid;
-  location:relative;
 }
 
-.education-outer{
+.section-outer{
+  margin-top:2vh;
   display: grid;
-  overflow: hidden;
-  grid-template-columns: minmax(38vw, 23%) 1fr;
-  height: auto;
-  padding-top: 5vw;
+  grid-template-columns: minmax(28vw, 20%) 1fr;
 }
 
-.education-col{
-  display: inline-block;
-  font-size: 2vw;
+.section-col{
   font-family: proxima-nova;
   color: black;
-  text-align: left;
+  text-align: right;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  hight: auto;
-}
-
-.education-inner{
-  padding-top: 5.8vh;
-  height:auto;
-}
-
-.experience-outer{
-  display: grid;
-  grid-template-columns: minmax(38vw, 23%) 1fr;
-  text-align: center;
-  height: auto;
-}
-
-.experience-col{
-  display: inline-block;
-  font-size: 2vw;
-  font-family: proxima-nova;
-  color: black;
-  position: relative;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.experience-inner{
-  padding-top: 7vh;
-}
-
-.skills-outer{
-  display: grid;
-  grid-template-columns: minmax(38vw, 23%) 1fr;
-  text-align: center;
-  height:auto;
-}
-
-.skills-col{
-  font-size: 2vw;
-  font-family: proxima-nova;
-  color: black;
-  text-align: center;
-  display: inline-block;
-  padding-right: 8vw;
+  margin-top:0;
 }
 
 .skills-inner{
-    padding-top: 5vh;
     text-align: left;
 }
 
-
+h2{
+  font-size: 1.8vw;
+}
 </style>

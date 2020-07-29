@@ -1,6 +1,6 @@
 <template>
   <div class="experience">
-    <h3 id="position">{{position}}</h3>
+    <h2 id="position">{{position}}</h2>
     <h4 id="companyLocationYears">{{companyLocationYears}}</h4>
     <span id="description">{{description}}</span>
   </div>
@@ -15,20 +15,26 @@ export default {
 
 <style>
 .experience{
-  width: 78%;
-  display: grid !important;
-  location: absolute;
   font-family: proxima-nova;
   font-style: normal;
-  font-size: 1.1vw;
   letter-spacing: .1em;
   color: black;
-  margin-top: 0px;
   text-align: left;
-  top: 10%;
-  padding-bottom: 5vh;
+  width:78%;
+  padding-bottom: 3.5vh;
 }
-#position, #companyLocationYears{
-  line-height: 3px
+
+h2{
+  font-size:1.8vw;
+}
+
+h4{
+  font-size:1.4vw;
+  margin-block-start: 0em;
+  margin-bottom:1vh;
+}
+
+.description{
+  font-size: 1vw
 }
 </style>

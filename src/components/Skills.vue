@@ -17,8 +17,8 @@ export default {
   font-style: normal;
   font-size: 1.1vw;
   letter-spacing: .1em;
-  color: black;
   text-align: left;
+  margin-top: 1.2em;
 
 }
 </style>
