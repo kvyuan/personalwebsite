@@ -5,7 +5,7 @@
     <div class="home-container">
       <h1>Welcome</h1>
       <p id="greetings-content">
-        Welcome to my $1 budget website written with Vue.js framework!
+        Thank you for visiting Hao's $1 budget website written with Vue.js framework!
         <br/>
         It's more of a personal website than a professional one,
         <br/>
@@ -15,9 +15,11 @@
         <br/>
         And I even spot dead pixels on my new monitor, yikes!
         <br/>
-        For a less terrible experience, please browse this website on a PC.
+        For a less terrible experience,
         <br/>
-        But hey, at least the memes are mobile device friendly!
+        please browse this website on a PC or enable view rotation on mobile.
+        <br/>
+        But hey, at least the memes are mobile friendly!
       </p>
       <h1> Get in touch</h1>
       <div class="social-media-row">
