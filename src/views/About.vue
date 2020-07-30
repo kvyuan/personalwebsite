@@ -26,7 +26,7 @@
       <div class="unpopular-opinions-inner">
         <p id="unpopular-opinions-content">
           <ul>
-            <li> Machine learning is overly hyped; More time should be spent on feature engineering than model tuning</li>
+            <li> Animal adoption > purchase</li>
             <li> Protests infringing others' rights and properties are not justified</li>
             <li> State-controlled media and free media both spread biased info, except one can do so freely</li>
             <li> Skin care products and alcolhol drinks shouldn't be gender specific</li>
@@ -42,10 +42,8 @@
       <div class="if-rich-inner">
         <p id="if-rich-content">
           Yeah I know, it's not likely to happen.
-          <br>
           But if I am, I will build an orphanage, a school,
           a homeless shelter, a nursing home, and an animal shelter.
-          <br>
           This is my life goal. Might be trivial to you, but it means a lot to me.
         </p>
       </div>
@@ -67,45 +65,70 @@ export default {
 
 <style>
 .fun-facts{
-  width: 100%;
-  height: 55vh;
+  display: grid;
+  grid-template-columns: minmax(53vw, 20%) 1fr;
   positition: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
 }
 
 .city-pic-wrapper{
-  position: relative;
-  padding-top: 16vh;
-  display:inline-block;
-  float:left;
-  margin-left: 11%;
-  width: 35%;
-  height: auto;
-
+  margin-top:2vh
 }
 
 img.city-pic{
-  width:100%;
+  width:60%;
   height: auto;
-  float:left
 }
 
 .fun-facts-inner{
   position: relative;
-  width:35%;
   float:right;
-  margin-right:11%;
-  padding-top:14vh;
+  width: 78%;
+}
+
+#fun-facts-content{
+  font-family: proxima-nova;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: black;
+  letter-spacing: .03em;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  margin-left: auto;
+  margin-right:auto;
+
 }
 
 .favorites{
   position: relative;
-  padding-top: 5%;
 }
 
 .unpopular-opinions-inner{
   text-align: center;
   display:block;
-  width: 100%
+  width: 50%;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#unpopular-opinions-content{
+  font-family: proxima-nova;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: black;
+  letter-spacing: .05em;
+  text-align: center;
+  text-indent: -5 px;
+}
+
+ul{
+  max-width:90%;
+  margin:auto;
+  text-align:left;
 }
 
 .if-rich-inner{
@@ -131,47 +154,15 @@ img.city-pic{
   letter-spacing: .16em;
 }
 
-#fun-facts-content{
-  font-family: proxima-nova;
-  font-style: normal;
-  font-size: 1.5vw;
-  color: black;
-  letter-spacing: .03em;
-  display: flex;
-  justify-content: space-between;
-  text-align: justify;
-
-}
-
-#unpopular-opinions-content{
-  font-family: proxima-nova;
-  font-style: normal;
-  font-size: 1.5vw;
-  color: black;
-  letter-spacing: .05em;
-  display: flex;
-  text-align: left;
-  width: 100%;
-  text-indent: -5 px;
-
-}
-
 #if-rich-content{
   font-family: proxima-nova;
   font-style: normal;
   font-size: 1.5vw;
   color: black;
   letter-spacing: .05em;
-  text-align: center;
-  align-items: center;
-
-
-}
-
-ul{
-  max-width:90%;
-  margin:auto;
-  text-align:left;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 </style>
