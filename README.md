@@ -2,10 +2,10 @@
 code base for my not-beautiful-yet website
 
 # Future Release
-v0.2 about view layout adjustment
-v0.3 resume view layout overhaul
-v0.4 downloadable resume
-v1.0 mobile device compatible
+* v0.2 about view layout adjustment
+* v0.3 resume view layout overhaul
+* v0.4 mobile device compatible
+* v0.5 downloadable resume
 
 ### Compiles and hot-reloads for development
 ```
