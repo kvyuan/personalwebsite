@@ -18,7 +18,7 @@ export default {
   background-color: #0c0b0b;
   location:relative;
   display:inline-block;
-  padding-top: 15vh;
+  padding-top: 7vh;
 }
 
 #content{

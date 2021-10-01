@@ -1,6 +1,6 @@
 <template>
   <div class="hvrbox">
-    <img :src="require(`../assets/fav/${image}`)"  width="400" height="200" class="hvrbox-layer_bottom"/>
+    <img :src="require(`../assets/fav/${image}`)"  width="500" height="400" class="hvrbox-layer_bottom"/>
     <div class="hvrbox-layer_top">
       <div class="hvrbox-text">{{description}}</div>
     </div>

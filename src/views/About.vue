@@ -38,13 +38,13 @@
       </div>
     </div>
     <div class="if-rich">
-      <p id="sub-header">If I am wealthy some day</p>
+      <p id="sub-header">If I am wealthy someday</p>
       <div class="if-rich-inner">
         <p id="if-rich-content">
           Yeah I know, it's not likely to happen.
-          But if I am, I will build an orphanage, a school,
+          But if it does happen, I will build an orphanage, a school,
           a homeless shelter, a nursing home, and an animal shelter.
-          This is my life goal. Might be trivial to you, but it means a lot to me.
+          <strong>#lifegoals</strong>
         </p>
       </div>
     </div>
@@ -133,9 +133,9 @@ ul{
 
 .if-rich-inner{
   align-items: center;
-  text-align: center;
+  text-align: left;
   justify-content: center;
-  display:block;
+  display:inline-block;
   width: 100%
 }
 

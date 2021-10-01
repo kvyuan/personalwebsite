@@ -9,7 +9,6 @@
         <router-link to="/home" class="nav-item">HOME</router-link>
         <router-link to="/about" class="nav-item">ABOUT</router-link>
         <router-link to="/resume" class="nav-item">RESUME</router-link>
-        <router-link to="/memes" class="nav-item">MEMES</router-link>
       </div>
     </div>
     <router-view></router-view>
@@ -56,7 +55,7 @@ export default {
 
 .navbar{
   width: 100%;
-  height: 15vh;
+  height: 7vh;
   background-color: #0c0b0b;
   position: fixed;
   display: flex;
@@ -80,20 +79,21 @@ export default {
 }
 
 .navbar-inner{
-  margin: 0 auto;
+  margin-left: 10vw;
   display: flex;
   font-size:15;
   hover ~.nav-item{
     background-color: #cc1b0d;
   };
-  align-items: center
+  float:right;
+  text-align: right;
 }
 
 .nav-item{
   color: #d6d6d6;
   margin: 20px;
   padding: .618em 0;
-  vertical-align: middle;
   text-decoration:none;
+  float: right;
 }
 </style>
